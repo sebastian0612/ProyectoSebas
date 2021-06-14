@@ -1,4 +1,7 @@
+package extraclase;
 
+
+import <any?>;
 import java.util.Scanner;
 
 /*
