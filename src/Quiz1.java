@@ -9,41 +9,47 @@
  * @author schaves
  */
 public class Quiz1 {
-    public static void double monto=0 (Strig []args);    
-double ingrediente1=1000;
-double ingrediente2=800;
-double ingrediente3=1200;
-int mini;
-int grande;
 
- {
-if 	(ingrediente1= mini);
- monto=(ingrediente1*0.10)+ingrediente1}
-System.out.println("su monto es de 1100");
-else if (ingrediente1= grande){
-monto=(ingrediente1*0.40)+ingrediente1}
-System.out.println("su monto es de 1400");
- }	
-{
-if 	(ingrediente2= mini);
- monto=(ingrediente2*0.10)+ingrediente2}
-System.out.println("su monto es de 880");
-else if (ingrediente1= grande){
-monto=(ingrediente2*0.40)+ingrediente2}
-System.out.println("su monto es de 1120");
+    private static class scaner {
 
- }	
- {
-if 	(ingrediente3= mini);
- monto=(ingrediente3*0.10)+ingrediente3}
-System.out.println("su monto es de 1320");
-else if (ingrediente3= grande){
-monto=(ingrediente3*0.40)+ingrediente3}
-System.out.println("su monto es de 1680");
-
- }	
- public static void main(String []args);
- escaner= new scanner(System.in);
- System.out.println("Digite 1 si o 0 no, en los ingredientes");
+        public scaner() {
+        }
+    }
+    public static void double monto=0 (Strig []args); {   
+    double precioIngrediente1=1000;
+    double PrecioIngrediente2=800;
+    double PrecioIngrediente3=1200;
+    int intIngrediente1=1;
+    int intIngrediente2=1;
+    int intIngrediente3=1;  
+    int tamano=0;
+    String nombreIngrediente1="Jamon";
+    String nombreIngrediente2="queso";
+    String nombreIngrediente3="pollo";
+    double pagoTotal=0;
     
+    scaner s= new scanner(System.in);
+    System.out.print("Digite 1 si, 2 no");
+    System.out.print("Desea "+nombreIngrediente1+"?");
+    intIngrediente1=s.next.int;
+    
+    System.out.print("Digite 1 si, 2 no");
+    System.out.print("Desea "+nombreIngrediente2+"?");
+    intIngrediente2=s.next.int;
+    
+    System.out.print("Digite 1 si, 2 no");
+    System.out.print("Desea "+nombreIngrediente3+"?");
+    intIngrediente3= s.next.int;
+    
+    if (tamano==1){
+     if(intIngrediente1==1)
+     pagoTotal = pagoTotal+precioIngrediente1; }
+    
+    
+    else if(tamano==2);{
+    
+    pagoTotal= 
+    }
+
+ }
 }
